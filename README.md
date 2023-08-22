@@ -19,7 +19,7 @@ Modificamos algunos archivos de app.js:
 
 Despues ya creamos los modulos de header, footer, employees, agregamos informacion por separado, luego unificamos en un solo archivo los modulos, agregamos estilos (Bootstrap y Css)
 
-<span>![</span><span>Imagen de referencia</span><span>]</span><span>(</span><span>https://raw.githubusercontent.com/parzibyte/WaterPy/master/assets/ImagenV1.png</span><span>)</span
+<span>[</span><span>Imagen de referencia</span><span>]</span><span>(</span><span>https://github.com/JoanZamudio/NODE_JS-22-08/blob/main/Img-ref.png</span><span>)
 
 ## Dependencias
 
