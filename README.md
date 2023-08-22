@@ -18,7 +18,7 @@ Modificamos algunos archivos de app.js:
       - se sube el packcage.Json  (se debe configurar el .gitignore)
 
 Despues ya creamos los modulos de header, footer, employees, agregamos informacion por separado, luego unificamos en un solo archivo los modulos, agregamos estilos (Bootstrap y Css)
-
+![Imagne de referencia](url completa de la imagen)
 ## Dependencias
 
 ### Dependencias de Sistema
