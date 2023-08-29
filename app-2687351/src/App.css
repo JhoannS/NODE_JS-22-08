@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+:root{
+  --verde: #1E8449;
+}
+*{
+  font-family: 'Roboto Mono', monospace;
+}
+body{
+  padding: 0;
+  margin: 0;
+}
+::selection{
+  background-color: darkslategray;
+  color: aliceblue;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  position: sticky;
+  background-color: white;
+  border-bottom: 1px solid var(--verde);
+}
+header img{
+  width: 70px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 30px;
+}
+header .lista a{
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+header .localizar{
+  margin: 8px 30px;
+}
+header .localizar i{
+  margin: 5px;
+  color: var(--verde);
+}
+
+.datos{
+  margin: 40px;
+  display: flex;
+  justify-content: center;
+}
+main h1{
+  font-size: 25px;
+  color: var(--verde);
+}
+.datos .info{
+  column-count: 2;
+  text-align: justify;
+}
+.datos .info p{
+  margin: 0 30px 30px 30px;
+}
+
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid var(--verde);
+  margin: 20px;
+}
+footer .redes{
+  color: white;
+  margin: 20px;
+}
+footer .redes i{
+  font-size: 20px;
+  margin: 10px;
+  background-color: black;
+  padding: 10px;
+  border-radius: 50%;
+}
+footer .redes i:hover{
+  transform: translateY(-3px);
+  transition: all .5s ease;
+  cursor: pointer;
+}
+
+footer .otras{
+  color: gray;
+  display: flex;
+}
+footer .otras span{
+  margin: 16px;
+  font-size: 14px;
+}
+footer .otras span:hover{
+  color: #1E8449;
+  cursor: pointer;
+}
+
+footer .copy{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer .copy i{
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-align: center;
+}
